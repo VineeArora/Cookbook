@@ -6,21 +6,27 @@ body {
     text-align: center;
 }
 header {
-    text-align: center;
-    display: block;
     padding: 10px;
-
 }
 nav {
     background-color:darkred;
-    text-align: center;
-    list-style-type: none; 
+    font-size:medium;
+    padding: 0 2%;
+    color: rgb(223, 225, 226);
+    
 }
-nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-    background-color:darkred;
-    list-style-type: none; 
+nav ul {
+    list-style-type: none;
+    color: #b1aeae;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav li {
+    display:inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 50px;
 }
 
 nav a {
@@ -28,18 +34,12 @@ nav a {
     color: rgb(217, 216, 219);
     transition: all ease-in 0.2s;
 }
-
 nav a:hover {
     text-decoration: none;
-    color: rgb(190, 106, 106);
+    color: rgb(172, 172, 172);
 }
-
-.container {
-   text-align: center;
-}
-
 img {
-    width: 50%;
+    width: 35%;
     padding: 0 2%;
     height: 10%;
 }
@@ -52,7 +52,5 @@ footer {
 ul {
     display: inline-block;
   }
-li {
-    display:list-item;
-    text-align: center;
-}
+
+
