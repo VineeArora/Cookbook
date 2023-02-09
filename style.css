@@ -52,4 +52,6 @@ footer {
 ul {
     display: inline-block;
   }
-  
+li {
+    display:list-item;
+}
