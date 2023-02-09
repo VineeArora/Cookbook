@@ -54,4 +54,5 @@ ul {
   }
 li {
     display:list-item;
+    text-align: center;
 }
