@@ -13,23 +13,20 @@ nav {
     font-size:medium;
     padding: 0 2%;
     color: rgb(223, 225, 226);
-    
 }
-nav ul {
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  nav ul {
     list-style-type: none;
     color: #b1aeae;
     margin: 0;
     padding: 0;
   }
-  
-nav li {
-    display:inline-block;
-    text-align: center;
-    list-style-type: none;
-    margin-right: 50px;
-}
 
-nav a {
+  nav a {
     text-decoration: none;
     color: rgb(217, 216, 219);
     transition: all ease-in 0.2s;
@@ -38,11 +35,6 @@ nav a:hover {
     text-decoration: none;
     color: rgb(172, 172, 172);
 }
-img {
-    width: 35%;
-    padding: 0 2%;
-    height: 10%;
-}
 footer {
     background-color: darkred;
     color: rgb(233, 233, 233);
@@ -50,7 +42,15 @@ footer {
     padding: 0.5px;
 }
 ul {
-    display: inline-block;
-  }
-
-
+    text-align: center;
+    list-style-position: inside;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 35%;
+    padding: 0 2%;
+    height: 10%;
+}
