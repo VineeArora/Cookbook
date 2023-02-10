@@ -57,6 +57,8 @@ img {
 ol {
     text-align: center;
     list-style-position: inside;
+    margin: 40px;
+    padding: 0 5%;
 }
 p {
     margin: 40px;
