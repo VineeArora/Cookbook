@@ -7,10 +7,11 @@ body {
 }
 header {
     padding: 10px;
+    font-size:x-large;
 }
 nav {
     background-color:darkred;
-    font-size:medium;
+    font-size:large;
     padding: 0 2%;
     color: rgb(223, 225, 226);
 }
@@ -44,6 +45,7 @@ footer {
 ul {
     text-align: center;
     list-style-position: inside;
+    font-size:large;
 }
 .responsive {
     width: 100%;
@@ -59,8 +61,14 @@ ol {
     list-style-position: inside;
     margin: 40px;
     padding: 0 5%;
+    font-size:large;
 }
 p {
     margin: 40px;
     padding: 0 5%;
+    font-size:large;
+}
+
+div {
+    font-size:larger;
 }
